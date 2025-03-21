@@ -2,3 +2,167 @@
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    /* Body font */
+    line-height: 1.6;
+    background-color: #f0f8ff;
+    /* Light background color */
+    color: #013b3b;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    /* Header font */
+    font-size: 3rem;
+    color: #005f73;
+    /* Dark teal for header */
+}
+
+/* MDL Navigation Styles */
+.mdl-layout__header {
+    background-color: #008080;
+    /* Teal for header */
+}
+
+.mdl-layout__header-row {
+    padding: 0;
+}
+
+.mdl-layout__title {
+    color: white;
+    font-size: 2rem;
+}
+
+.mdl-navigation {
+    text-align: center;
+}
+
+.mdl-navigation__link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.mdl-navigation__link:hover {
+    background-color: #9cedf8;
+    /* light blue-ish teal hover effect */
+    color: #005f73;
+}
+
+/* Main Content Styling */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #013b3b;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+    background-color: #008080;
+    /* Teal footer */
+    color: #fff;
+    border-radius: 8px;
+}
+
+/* Specific Page Styles */
+
+/* Home Page */
+body.home {
+    background-color: #f0f8ff;
+}
+
+/* Carcharhiniformes Page */
+body.carcharhiniformes {
+    background-color: #f1f8e9;
+    /* Soft green */
+}
+
+/* Hederodotiformes Page */
+body.hederodotiformes {
+    background-color: #e8f5e9;
+    /* Light green */
+}
+
+/* Hexanchiformes Page */
+body.hexanchiformes {
+    background-color: #f3e5f5;
+    /* Light purple */
+}
+
+/* Lamniformes Page */
+body.lamniformes {
+    background-color: #e1f5fe;
+    /* Light blue */
+}
+
+/* Orectolobiformes Page */
+body.orectolobiformes {
+    background-color: #e0f7fa;
+    /* Light blue */
+}
+
+/* Pristiophoriformes Page */
+body.pristiophoriformes {
+    background-color: #f3e5f5;
+    /* Light purple */
+}
+
+/* Squaliformes Page */
+body.squaliformes {
+    background-color: #f1f8e9;
+    /* Soft green */
+}
+
+/* Squatiniformes Page */
+body.squatiniformes {
+    background-color: #fff3e0;
+    /* Light orange */
+}
+
+/* red */
+button1 {
+    background-color: #ba0000;
+}
